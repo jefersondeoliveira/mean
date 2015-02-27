@@ -13,7 +13,6 @@ docker build -t mean .
 
 ```
 docker run -i -t -d -v `pwd`:/home/jeferson-docker/mean mean
-
 ```
 ### Ganhando controle sobre o shell do container do projeto ###
 

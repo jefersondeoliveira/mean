@@ -6,16 +6,12 @@
 
 * Primeiramente deve-se criar a imagem do projeto:
 ```
-#!shell
-
 docker build -t mean .
 ```
 
 * Após a criação da imagem você já poderá executar o container do projeto:
 
 ```
-#!shell
-
 docker run -i -t -d -v `pwd`:/home/jeferson-docker/mean mean
 
 ```
@@ -24,15 +20,11 @@ docker run -i -t -d -v `pwd`:/home/jeferson-docker/mean mean
 * Após executar o container do projeto execute o comando a seguir para recuperar o id do container em execução:
 
 ```
-#!shell
-
 docker ps
 ```
 * Execute o comando a seguir para ganhar o controle sobre o shell do container:
 
 ```
-#!shell
-
 docker exec -it <ID-CONTAINER> bash
 ```
 
@@ -41,8 +33,6 @@ docker exec -it <ID-CONTAINER> bash
 * Para parar o container do projeto execute o comando a seguir:
 
 ```
-#!shell
-
 docker stop <ID-CONTAINER>
 ```
 
@@ -51,8 +41,6 @@ docker stop <ID-CONTAINER>
 * Para executar o projeto você deve acessar a pasta 'mean' e execute o seguintes comando:
 
 ```
-#!shell
-
 nodemon server.js
 ```
 
