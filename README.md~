@@ -4,6 +4,11 @@
 
 ### Executando docker ###
 
+* Caso não queira executar manualmente os comandos de configuração do ambiente do projeto, existe um script de automação, que é executado pelo seguinte comando:
+
+```
+#!shell
+
 * Primeiramente deve-se criar a imagem do projeto:
 ```
 #!shell
