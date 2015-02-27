@@ -12,7 +12,7 @@ docker build -t mean .
 * Após a criação da imagem você já poderá executar o container do projeto:
 
 ```
-docker run -i -t -d -v `pwd`:/home/jeferson-docker/mean mean
+docker run -i -t -d -v `pwd`:/home/docker/mean mean
 ```
 ### Ganhando controle sobre o shell do container do projeto ###
 
